@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F24B289D2761C57D00BD4313 /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F24B289C2761C57D00BD4313 /* Obstacle.sks */; };
+		F25CA8A22762A8A5004CF6E2 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25CA8A12762A8A5004CF6E2 /* MSButtonNode.swift */; };
+		F25CA8A42763FE4E004CF6E2 /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = F25CA8A32763FE4E004CF6E2 /* GameOver.sks */; };
+		F25CA8A62763FF44004CF6E2 /* GameWon.sks in Resources */ = {isa = PBXBuildFile; fileRef = F25CA8A52763FF44004CF6E2 /* GameWon.sks */; };
 		F2E5F1FB274C5AB300A16559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E5F1FA274C5AB300A16559 /* AppDelegate.swift */; };
 		F2E5F1FD274C5AB300A16559 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F2E5F1FC274C5AB300A16559 /* GameScene.sks */; };
 		F2E5F1FF274C5AB300A16559 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F2E5F1FE274C5AB300A16559 /* Actions.sks */; };
@@ -22,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		F24B289C2761C57D00BD4313 /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
+		F25CA8A12762A8A5004CF6E2 /* MSButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		F25CA8A32763FE4E004CF6E2 /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
+		F25CA8A52763FF44004CF6E2 /* GameWon.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameWon.sks; sourceTree = "<group>"; };
 		F2E5F1F7274C5AB300A16559 /* Ultimate Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ultimate Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E5F1FA274C5AB300A16559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2E5F1FC274C5AB300A16559 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -65,17 +71,20 @@
 		F2E5F1F9274C5AB300A16559 /* Ultimate Hunter */ = {
 			isa = PBXGroup;
 			children = (
-				F2E5F1FA274C5AB300A16559 /* AppDelegate.swift */,
-				F2E5F1FC274C5AB300A16559 /* GameScene.sks */,
-				F2E5F211274C637000A16559 /* Deer.sks */,
-				F2E5F213274C6D8F00A16559 /* Hunter.sks */,
 				F2E5F1FE274C5AB300A16559 /* Actions.sks */,
+				F2E5F1FA274C5AB300A16559 /* AppDelegate.swift */,
+				F2E5F207274C5AB400A16559 /* Assets.xcassets */,
+				F2E5F211274C637000A16559 /* Deer.sks */,
+				F25CA8A32763FE4E004CF6E2 /* GameOver.sks */,
+				F2E5F1FC274C5AB300A16559 /* GameScene.sks */,
 				F2E5F200274C5AB300A16559 /* GameScene.swift */,
 				F2E5F202274C5AB300A16559 /* GameViewController.swift */,
-				F2E5F204274C5AB300A16559 /* Main.storyboard */,
-				F2E5F207274C5AB400A16559 /* Assets.xcassets */,
+				F2E5F213274C6D8F00A16559 /* Hunter.sks */,
 				F2E5F209274C5AB400A16559 /* LaunchScreen.storyboard */,
+				F2E5F204274C5AB300A16559 /* Main.storyboard */,
+				F25CA8A12762A8A5004CF6E2 /* MSButtonNode.swift */,
 				F24B289C2761C57D00BD4313 /* Obstacle.sks */,
+				F25CA8A52763FF44004CF6E2 /* GameWon.sks */,
 			);
 			path = "Ultimate Hunter";
 			sourceTree = "<group>";
@@ -142,7 +151,9 @@
 				F2E5F206274C5AB300A16559 /* Main.storyboard in Resources */,
 				F2E5F1FD274C5AB300A16559 /* GameScene.sks in Resources */,
 				F2E5F214274C6D8F00A16559 /* Hunter.sks in Resources */,
+				F25CA8A42763FE4E004CF6E2 /* GameOver.sks in Resources */,
 				F2E5F208274C5AB400A16559 /* Assets.xcassets in Resources */,
+				F25CA8A62763FF44004CF6E2 /* GameWon.sks in Resources */,
 				F2E5F212274C637000A16559 /* Deer.sks in Resources */,
 				F2E5F20B274C5AB400A16559 /* LaunchScreen.storyboard in Resources */,
 				F2E5F1FF274C5AB300A16559 /* Actions.sks in Resources */,
@@ -159,6 +170,7 @@
 				F2E5F201274C5AB300A16559 /* GameScene.swift in Sources */,
 				F2E5F203274C5AB300A16559 /* GameViewController.swift in Sources */,
 				F2E5F1FB274C5AB300A16559 /* AppDelegate.swift in Sources */,
+				F25CA8A22762A8A5004CF6E2 /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
